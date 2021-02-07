@@ -34,6 +34,7 @@ public class Main {
 
         System.out.println((box1.compare(box2))?"Коробки одинакового веса":"Коробки отличаются по весу");
 
+        //пересыпка
         Box<Orange> box3 = new Box<Orange>();
         box2.poureOver(box3);
     }
